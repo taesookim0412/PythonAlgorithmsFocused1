@@ -5,7 +5,7 @@ def rob(self, nums: List[int]) -> int:
     for i in range(len(nums)):
         for j in range(i+1):
             dp[i+2][j+2] = max(
-                max(dp[i+1][j+1], nums[j]),
+                max(dp[i+2][j+1], nums[j]),
                 dp[i][j] + nums[j]
             )
     # print(dp)

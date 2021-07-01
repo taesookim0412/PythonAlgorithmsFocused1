@@ -20,3 +20,12 @@ class Solution:
             l += 1
             r -= 1
         return dummy.next
+
+
+
+
+def switchLst(data1, data2):
+    res = []
+    for data_1, data_2 in zip(data1, data2):
+        res.append(int(data_1)/int(data_2))
+    return res

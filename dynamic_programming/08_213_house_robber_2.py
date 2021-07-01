@@ -15,3 +15,14 @@ class Solution:
                 dp[i + 2] = max(dp[i + 1], dp[i] + house[i])
             res = max(res, dp[-1])
         return res
+
+
+hornyjail_json = collections.defaultdict(dict)
+
+or
+
+if i in hornyjail_json:
+    horneyjail_json[i]["asdf"] = "blah blah blah"
+else:
+    horneyjail_json[i] = {}
+    horneyjail_json[i]["asdf"] = "blah blah blah"

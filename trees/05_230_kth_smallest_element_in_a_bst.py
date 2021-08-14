@@ -20,9 +20,9 @@ class Solution:
     # def kthSmallest(self, root: TreeNode, k: int) -> int:
     #     self.vals = []
     #     self.traverse(root)
-    #     return heapq.nsmallest(k, self.vals)[k-1]
+    #     return heap.nsmallest(k, self.vals)[k-1]
     # def traverse(self, root):
     #     if root:
-    #         heapq.heappush(self.vals, root.val)
+    #         heap.heappush(self.vals, root.val)
     #         self.traverse(root.left)
     #         self.traverse(root.right)

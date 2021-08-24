@@ -16,7 +16,7 @@ class Solution:
         #print(pq)
         while pq:
             price, area, stops = heapq.heappop(pq)
-            #print(price, area, stops)
+            #print(price, area, stops) 
             if area == target_dst:
                 return price
             if stops >= k:
